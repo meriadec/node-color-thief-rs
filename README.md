@@ -1,11 +1,11 @@
 # node-color-thief-rs
 
-Node.js bindings for color-thief-rs
+Node.js bindings for [color-thief-rs](https://github.com/RazrFalcon/color-thief-rs)
 
 ### Usage
 
 ```js
-const colorThief = require('color-thief')
+const colorThief = require('color-thief-rs')
 
 const imgPath = '/tmp/sample.png'
 
