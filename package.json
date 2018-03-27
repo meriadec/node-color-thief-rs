@@ -2,17 +2,21 @@
   "name": "node-color-thief-rs",
   "version": "0.1.0",
   "description": "Node.js bindings for color-thief-rs",
+  "author": "meriadec <meriadec.pillet@gmail.com>",
+  "license": "BSD-2-Clause",
   "main": "lib/index.js",
+  "scripts": {
+    "install": "neon build",
+    "prettier": "prettier --write lib/**/*.js"
+  },
   "repository": {
     "type": "git",
     "url": "git@github.com:meriadec/node-color-thief-rs.git"
   },
-  "author": "meriadec <meriadec.pillet@gmail.com>",
-  "license": "BSD-2-Clause",
   "dependencies": {
     "neon-cli": "^0.1.22"
   },
-  "scripts": {
-    "install": "neon build"
+  "devDependencies": {
+    "prettier": "^1.11.1"
   }
 }
