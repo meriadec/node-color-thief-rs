@@ -2,6 +2,17 @@
 
 Node.js bindings for color-thief-rs
 
+### Usage
+
+```js
+const colorThief = require('color-thief')
+
+const imgPath = '/tmp/sample.png'
+
+colorThief.getDominantColor(imgPath)
+  .then(color => console.log(color))
+```
+
 ### Benchmark
 
 ```
