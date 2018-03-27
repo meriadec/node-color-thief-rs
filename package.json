@@ -1,5 +1,5 @@
 {
-  "name": "node-color-thief-rs",
+  "name": "color-thief-rs",
   "version": "0.1.0",
   "description": "Node.js bindings for color-thief-rs",
   "author": "meriadec <meriadec.pillet@gmail.com>",
