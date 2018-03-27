@@ -1,0 +1,16 @@
+[package]
+name = "node-color-thief-rs"
+version = "0.1.0"
+authors = ["meriadec <meriadec.pillet@gmail.com>"]
+license = "BSD-2-Clause"
+build = "build.rs"
+
+[lib]
+name = "node_color_thief_rs"
+crate-type = ["dylib"]
+
+[build-dependencies]
+neon-build = "0.1.22"
+
+[dependencies]
+neon = "0.1.22"
